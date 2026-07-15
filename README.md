@@ -65,7 +65,7 @@ cd linux-setup
 
 | Distribution | Status |
 | ------------ | ------ |
-| Linux Mint 22.x XFCE | ✅ Primary Target |
+| Linux Mint | ✅ Supported |
 | Kali Linux | 🚧 Planned |
 | Ubuntu | 🚧 Planned |
 | Parrot OS | 🚧 Planned |
