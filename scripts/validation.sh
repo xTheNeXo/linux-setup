@@ -23,7 +23,7 @@ validate_environment() {
 		return 1
 	fi
 	
-	# Check that sudo is available
+	# Check that the current user has sudo privileges
 	if ! sudo -v; then
 		printf '%s\n2' "Error: sudo authentication failed."
 		return 1
