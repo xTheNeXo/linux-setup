@@ -29,5 +29,11 @@ validate_environment() {
 		return 1
 	fi
 
+	# Check that apt is available
+	if ! command -v apt >/dev/null 2>&1; then
+		printf '%s\n' "Error: apt is required."
+		return 1
+	fi
+
 	printf '%s\n' "Environment validation completed successfully."
 }
