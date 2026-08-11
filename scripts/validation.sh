@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -Eeuo pipefail
-
 validate_environment() {
 	printf '%s\n' "Validating environment..."
 	
