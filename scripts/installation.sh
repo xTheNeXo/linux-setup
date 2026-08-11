@@ -10,8 +10,13 @@ install_packages() {
 	printf '%s\n' "Installing required packages..."
 
 	sudo apt install -y \
-		curl \
-		wget 
+		bspwm \
+		sxhkd \
+		polybar \
+		rofi \
+		picom \
+		kitty \
+		zsh 
 
 	printf '%s\n' "Package installation completed successfully."
 }

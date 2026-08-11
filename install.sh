@@ -2,12 +2,10 @@
 
 set -Eeuo pipefail
 
-# Load the validation module
+# Load the validation, installation and configuration module
 source scripts/validation.sh
-
-# Load the installation module
 source scripts/installation.sh
-
+#source scripts/configuration.sh
 
 # Validate the current environment
 validate_environment
